@@ -1,4 +1,5 @@
 import { BiCoinStack } from "react-icons/bi";
+import { BsArrowRight } from "react-icons/bs";
 import { SiCoinmarketcap } from "react-icons/si";
 import { SlRocket } from "react-icons/sl";
 
@@ -33,12 +34,9 @@ const Services = () => {
           icon={<BiCoinStack className="size-full" />}
         />
         <ServiceCard
-          heading="Boost Social Proof"
-          content="Build a loyal following with cost-effective watchlists and stars on
-            CoinMarketCap and Coingecko. Create a buzz with targeted trending on
-            Twitter in the US, Brazil, Germany, or worldwide, propelling your
-            project into the global conversation. Increase community trust with
-            strategic Dextools upvotes."
+          heading="Build A Social Galaxy"
+          content="Twitter Trending (US, Brazil, Germany, Worldwide): Go viral with strategic trending on Twitter in targeted regions or globally.
+          Dextools Upvotes: Earn trust with well-placed Dextools upvotes."
           icon={<SlRocket className="size-full" />}
         />
       </div>
@@ -66,6 +64,9 @@ function ServiceCard({
       <p className="text-indigo-300 text-justify text-sm group-hover:text-xl opacity-0 -translate-x-full group-hover:translate-x-0 origin-bottom group-hover:opacity-100 transition-all duration-300">
         {content}
       </p>
+      <button className="inline-flex items-center gap-2 group-hover:hidden">
+        Learn More <BsArrowRight className="size-4" />
+      </button>
     </li>
   );
 }
