@@ -4,7 +4,7 @@ import { SlRocket } from "react-icons/sl";
 
 const Services = () => {
   return (
-    <section className="bg-indigo-100 text-indigo-900 py-20">
+    <section className="bg-indigo-500/10 text-indigo-900 dark:text-indigo-300 py-20">
       <header className="py-10 px-8 text-center max-w-2xl mx-auto">
         <h2 className="font-black text-6xl mb-4">OUR SERVICES</h2>
         <p className="text-sm">
