@@ -3,9 +3,9 @@ import Logo from "../assets/logo.png";
 import { telegramLink, twitterLink } from "../data";
 const Testimonial = () => {
   return (
-    <section className="py-16 px-4 flex items-center max-w-7xl mx-auto">
+    <section className="py-16 px-4 flex flex-col lg:flex-row items-center max-w-7xl mx-auto">
       <div className="max-w-7xl mx-auto flex-1">
-        <h4 className="font-bold text-8xl mb-4">
+        <h4 className="font-bold text-4xl lg:text-8xl mb-4">
           Your Trusted Partner In Crypto Growth
         </h4>
         <p className="max-w-2xl">
